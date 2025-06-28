@@ -1,14 +1,6 @@
 # NOTES CLI App
 
-A simple, interactive command-line tool to add, review, and manage notes and todos.
-
-## Features
-- Add notes and todos from the command line or interactive menu
-- View notes and todos separately with beautiful, emoji-enhanced tables
-- Delete all notes or all todos (with confirmation)
-- Semantic search with keyword fallback for robust note finding
-- Custom SQL queries from the menu
-- SQLite-backed storage (local file)
+A CLI tool to add, review, and manage notes and todos.
 
 ## Semantic Search & Vector Database
 
@@ -24,7 +16,7 @@ This uses a vector database (ChromaDB) and a machine learning model (MiniLM) to 
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repo-url>
+   git clone <repo name>
    cd review_and_append
    ```
 2. **Create and activate a virtual environment (recommended):**
