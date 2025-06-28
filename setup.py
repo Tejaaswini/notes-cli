@@ -5,7 +5,7 @@ setup(
     version="0.1.0",
     description="A CLI tool for adding and reviewing notes",
     author="Your Name",
-    py_modules=["main", "db", "utils"],
+    py_modules=["main", "db", "utils", "notes_semantic_db"],
     install_requires=[
         "rich>=10.0.0",
     ],
